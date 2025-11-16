@@ -1,12 +1,6 @@
-import React from 'react';
 import Logo from './Logo';
 
 const Footer = () => {
-  const handleWhatsApp = () => {
-    const message = encodeURIComponent('Halo, saya ingin bertanya tentang layanan pembuatan website.');
-    window.open(`https://wa.me/6285187047492?text=${message}`, '_blank');
-  };
-
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
